@@ -8,7 +8,7 @@ func main() {
 
 	// Define a route for the root path ("/") that responds with "Hello, World!"
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Hello, World!")
+		return c.SendString("Hello, World HeHe!")
 	})
 
 	// Start the Fiber app on port 3000
